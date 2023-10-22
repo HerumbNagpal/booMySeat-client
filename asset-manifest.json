@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/booMySeat-client/static/css/main.b3f28451.css",
-    "main.js": "/booMySeat-client/static/js/main.5074765d.js",
+    "main.js": "/booMySeat-client/static/js/main.b6e7f227.js",
     "static/js/787.cda612ba.chunk.js": "/booMySeat-client/static/js/787.cda612ba.chunk.js",
     "index.html": "/booMySeat-client/index.html",
     "main.b3f28451.css.map": "/booMySeat-client/static/css/main.b3f28451.css.map",
-    "main.5074765d.js.map": "/booMySeat-client/static/js/main.5074765d.js.map",
+    "main.b6e7f227.js.map": "/booMySeat-client/static/js/main.b6e7f227.js.map",
     "787.cda612ba.chunk.js.map": "/booMySeat-client/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b3f28451.css",
-    "static/js/main.5074765d.js"
+    "static/js/main.b6e7f227.js"
   ]
 }
