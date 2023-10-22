@@ -14,8 +14,8 @@ function DisplaySeats() {
 
   const fetchSeats = async () => {
     const res = await axios.get(
-      // "https://seatbooking-server-herumb.onrender.com/seats"
-      "http://localhost:8080/seats"
+      "https://seatbooking-server-herumb.onrender.com/seats"
+      // "http://localhost:8080/seats"
     );
     setAllSeats(res.data);
   };
@@ -73,8 +73,8 @@ function DisplaySeats() {
       seatNum: seatClicked,
     };
     const res = await axios.post(
-      // "https://seatbooking-server-herumb.onrender.com/book",
-      "http://localhost:8080/book",
+      "https://seatbooking-server-herumb.onrender.com/book",
+      // "http://localhost:8080/book",
       data
     );
     console.log(res);
@@ -92,8 +92,8 @@ function DisplaySeats() {
       seatNum: seatClicked,
     };
     const res = await axios.post(
-      // "https://seatbooking-server-herumb.onrender.com/cancel",
-      "http://localhost:8080/cancel",
+      "https://seatbooking-server-herumb.onrender.com/cancel",
+      // "http://localhost:8080/cancel",
       data
     );
     console.log(res);
